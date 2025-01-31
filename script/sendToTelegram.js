@@ -41,7 +41,7 @@ function sendTelegram(name, phone, email, request, select_type, select_size, sel
         Святкове оформлення: ${select_decor || ""}
         Згода на обробку даних: ${privacy || "так"}
         
-        UTM-метки:
+        UTM-мітки:
         utm_source: ${utmParams.utm_source}
         utm_medium: ${utmParams.utm_medium}
         utm_campaign: ${utmParams.utm_campaign}
